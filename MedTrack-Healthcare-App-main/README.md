@@ -184,9 +184,3 @@ flask run
   - 🌍 Host on platforms like:
   - [AWS EC2](https://aws.amazon.com/ec2/)
 
----
-
-## 👨‍💻 Author
-
-**Developed by:** [@SAGAR](https://github.com/sagar25k)  
-📧 **Contact:** `sagarkanithi@example.com`
