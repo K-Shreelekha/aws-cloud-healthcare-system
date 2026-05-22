@@ -99,7 +99,7 @@ def publish_to_sns(message, subject="HealthCare Notification"):
         return
     try:
         response = sns.publish(
-            TopicArn=arn:aws:"sns:us-east-1:965384155745:medtrack",
+            TopicArn=SNS_TOPIC-ARN,
             Message=message,
             Subject=subject
         )
