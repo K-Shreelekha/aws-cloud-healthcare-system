@@ -377,7 +377,7 @@ def book_appointment():
             if ENABLE_SNS and SNS_TOPIC_ARN:
                 try:
                     sns.publish(
-                        TopicArn="arn:aws:sns:us-east-1:965384155745:medtrack",
+                        TopicArn="SNS_TOPIC_ARN",
                         Message="New appointment booked by {0} with Dr. {1} for {2}".format(patient_name, doctor_name, appointment_datetime),
                         Subject="New Appointment - MedTrack"
                     )
